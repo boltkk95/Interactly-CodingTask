@@ -1,0 +1,106 @@
+.button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    transition: all 0.3s ease-in-out 0s;
+    width: 50vw;
+}
+
+.button-form{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+
+.button-wrapper{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-button{
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgba(17, 17, 17, 0.1);
+    border: none;
+    border-radius: 30px;
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+    display: flex;
+    -webkit-box-flex: 2;
+    flex-grow: 2;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    line-height: 20px;
+    margin-bottom: 16px;
+    outline: none;
+    padding: 1rem 3rem 1rem 1.5rem;
+    position: relative;
+    transition: background-color 0.4s ease 0s;
+    width: 336px;
+    pointer-events: initial;
+}
+.button-option{
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-shrink: 0;
+    font-family: apercu-pro;
+    font-size: 14px;
+    background: rgb(125, 0, 254);
+    font-weight: 500;
+    height: 28px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 28px;
+}
+
+.left-button:hover {border:solid blue 1px}
+
+.left-button:active {
+  border:solid blue 1px;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.left-button-active{
+    border: solid blue 1px;
+    box-shadow: 0 5px #666;
+}
+
+.option-button{
+    -webkit-box-align: center;
+    align-items: center;
+    background: blue;
+    border: none;
+    border-radius: 30px;
+    color: rgb(180, 176, 176);
+    cursor: pointer;
+    display: flex;
+    -webkit-box-flex: 2;
+    flex-grow: 2;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    line-height: 20px;
+    margin-bottom: 16px;
+    margin-top: 4rem;
+    outline: none;
+    padding: 1rem 3rem 1rem 1.5rem;
+    position: relative;
+    transition: background-color 0.4s ease 0s;
+    width: 336px;
+    pointer-events: initial;
+}

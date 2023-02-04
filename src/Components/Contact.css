@@ -1,0 +1,32 @@
+.contact-section{
+    color: black;
+    background-color: white;
+    padding: 2rem;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.answer-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-item{
+    margin-bottom: 3rem;
+}
+
+.answer-input{
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.answer-button{
+    padding: 0;
+    padding: 2rem;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 3rem;
+    width: 20rem;
+    margin: auto;
+}
