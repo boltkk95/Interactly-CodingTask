@@ -4,6 +4,13 @@ import "./Video.css"
 import videoFunctions from "../../Components/videoFunction";
 import {FaVolumeUp, FaVolumeMute}  from "react-icons/fa";
 import { BiExitFullscreen, BiFullscreen } from "react-icons/bi";
+import {playImg,video1,video2,video3} from "public-assets";
+
+const videoMap = {
+    video1,
+    video2,
+    video3
+}
 
 
 
@@ -35,7 +42,7 @@ import { BiExitFullscreen, BiFullscreen } from "react-icons/bi";
                 />
             <div className="video-wrapper">
                 <video  loop  className="video-element"
-                src={videoState.id}
+                src={videoMap[videoState.id]}
                 ref={videoElement}
                 onTimeUpdate={handleOnTimeUpdate}
                 onClick={
@@ -66,7 +73,7 @@ import { BiExitFullscreen, BiFullscreen } from "react-icons/bi";
                 </div>
             </div>
 
-            <img src="/Assets/play-img.png" alt="playbuttonimage" onClick={togglePlay} className={!videoState.isPlaying ? "":"play-img"}/>
+            <img src={playImg} alt="playbuttonimage" onClick={togglePlay} className={!videoState.isPlaying ? "":"play-img"}/>
             
       </div>
     )

@@ -1,6 +1,7 @@
 {
   "name": "videoplayer",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
@@ -12,7 +13,8 @@
     "react-icons": "^4.7.1",
     "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "public-assets": "file:./public"
   },
   "scripts": {
     "start": "react-scripts start",

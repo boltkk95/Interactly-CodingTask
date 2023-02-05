@@ -4,7 +4,7 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
   videoState: 
     {
-      id: "/Assets/video1.mp4",
+      id: "video1",
       isPlaying: false,
       progress: 0,
       speed: 1,
